@@ -78,9 +78,10 @@ Pada tahapan deployment, saya mencoba untuk menggunakan Kubernetes terlebih dahu
     ```
 
   - Cek status node apakah sudah terinstal
-    # Gambar
+  ![alt text](https://github.com/lawrence-olen/Test-Axiata/blob/master/3.%20Deployment/images/axiata8.png.png?raw=true)
 
-2. Install Helm dan Helmfile
+
+1. Install Helm dan Helmfile
 
    ```
     # Install Helm
@@ -105,12 +106,13 @@ Pada tahapan deployment, saya mencoba untuk menggunakan Kubernetes terlebih dahu
     helm diff release -h
    ```
 
-3. Deployment aplikasi menggunakan helmfile [Disini saya masih menggunakan IP Server untuk melihat aplikasi sudah berjalan atau belum (http://35.197.153.227:30009/)]
+2. Deployment aplikasi menggunakan helmfile [Disini saya masih menggunakan IP Server untuk melihat aplikasi sudah berjalan atau belum (http://35.197.153.227:30009/)]
 
 - Deployment menggunakan perintah ``` helmfile apply ```
-
+![alt text](https://github.com/lawrence-olen/Test-Axiata/blob/master/3.%20Deployment/images/axiata9.png?raw=true)
 
 - Cek pada browser apakah sudah berjalan atau belum.
+![alt text](https://github.com/lawrence-olen/Test-Axiata/blob/master/3.%20Deployment/images/axiata10.png?raw=true)
 
 
 > [!NOTE]
@@ -133,5 +135,14 @@ Pada tahapan deployment, saya mencoba untuk menggunakan Kubernetes terlebih dahu
   ```
 
 - Lalu cek apakah sudah berjalan semua atau belum.
+![alt text](https://github.com/lawrence-olen/Test-Axiata/blob/master/3.%20Deployment/images/axiata11.png?raw=true)
 
 - Buka browser untuk memastikan apakah aplikasi sudah berjalan atau belum (https://axiata.olen.studentdumbways.my.id/home).
+![alt text](https://github.com/lawrence-olen/Test-Axiata/blob/master/3.%20Deployment/images/axiata12.png?raw=true)
+
+
+> [!NOTE]
+> Beberapa perintah yang digunakan dalam konfigurasi docker compose.
+> - docker compose up -d
+> - docker compose ps -a
+> - docker compose down

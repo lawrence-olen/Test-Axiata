@@ -14,3 +14,6 @@ Berikut adalah gambar dari Repository Github yang sudah saya buat.
 
 # Gambar
 
+![alt text](https://github.com/lawrence-olen/Test-Axiata/blob/master/2.%20Repository/images/axiata6.png?raw=true)
+
+![alt text](https://github.com/lawrence-olen/Test-Axiata/blob/master/2.%20Repository/images/axiata7.png?raw=true)
