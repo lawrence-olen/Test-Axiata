@@ -83,7 +83,9 @@ pipeline {
   }
 }
 ```
-# Gambar
+![alt text](https://github.com/lawrence-olen/Test-Axiata/blob/master/4.%20CICD/images/axiata13.png?raw=true)
+
+![alt text](https://github.com/lawrence-olen/Test-Axiata/blob/master/4.%20CICD/images/axiata16.png?raw=true)
 
 
 
@@ -161,10 +163,16 @@ pipeline {
 }
 ```
 
+![alt text](https://github.com/lawrence-olen/Test-Axiata/blob/master/4.%20CICD/images/axiata14.png?raw=true)
+
+![alt text](https://github.com/lawrence-olen/Test-Axiata/blob/master/4.%20CICD/images/axiata17.png?raw=true)
+
+
 
 **Sonarqube**
 
-Disini saya menggunakan Sonarqube untuk melakukan testing terhadap repository staging maupun production
+Disini saya menggunakan Sonarqube untuk melakukan testing terhadap repository staging maupun production.
+![alt text](https://github.com/lawrence-olen/Test-Axiata/blob/master/4.%20CICD/images/axiata15.png?raw=true)
 
 
 > [!NOTE]
