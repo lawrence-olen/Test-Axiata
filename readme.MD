@@ -1,6 +1,7 @@
 # TEST DEVOPS ENGINEER AXIATA
 
 - Kubernetes (http://35.197.153.227:30009/)
+- Docker Compose (https://axiata.olen.studentdumbways.my.id/)
 
 
 1. [File Repository Test](https://github.com/aws-containers/retail-store-sample-app)
