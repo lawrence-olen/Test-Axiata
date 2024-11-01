@@ -9,7 +9,7 @@
 
 Pada tahapan deployment, saya mencoba untuk menggunakan Kubernetes terlebih dahulu untuk branch staging. Lalu saya juga mencoba untuk menggunakan docker compose untuk branch produciton.
 
-**Kubernetes**
+# Kubernetes
 
 1. Setup K3S untuk master dan worker
    - K3S Master
@@ -121,7 +121,7 @@ Pada tahapan deployment, saya mencoba untuk menggunakan Kubernetes terlebih dahu
 > - helmfile delete
 
 
-**Docker Compose**
+# Docker Compose
 
 - Sebelumnya docker dan docker compose sudah terinstall pada server.
 
