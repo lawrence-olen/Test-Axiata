@@ -30,7 +30,7 @@ provider "google" {
   zone = var.zone
 }
 ```
-# gambar
+![alt text](https://github.com/lawrence-olen/Test-Axiata/blob/master/1.%20Provisioning/images/axiata1.png?raw=true)
 
 
 2. Lalu buatlah file variable.tf yang digunakan untuk mendefinisikan variabel yang akan dipakai nantinya.
@@ -48,7 +48,7 @@ variable "zone" {
   default = "asia-southeast1-a"
 }
 ```
-# gambar
+![alt text](https://github.com/lawrence-olen/Test-Axiata/blob/master/1.%20Provisioning/images/axiata2.png?raw=true)
 
 
 3. Lalu buatlah file terraform.tfvars yang digunakan untuk mengatur nilai dari variabel yang sudah didefinisikan pada file variable.tf.
@@ -63,7 +63,8 @@ images_OS = {
   }
 }
 ```
-# gambar
+![alt text](https://github.com/lawrence-olen/Test-Axiata/blob/master/1.%20Provisioning/images/axiata3.png?raw=true)
+
 
 4.  Terakhir buatlah file main.tf yang digunakan untuk membuat resource yang ingin dikelola pada insfrastruktur.
 
@@ -101,7 +102,7 @@ resource "google_compute_instance" "vm_instances_axiata" {
   }
 }
 ```
-# gambar
+![alt text](https://github.com/lawrence-olen/Test-Axiata/blob/master/1.%20Provisioning/images/axiata4.png?raw=true)
 
 
 **Ansible**
