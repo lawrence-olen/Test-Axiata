@@ -78,7 +78,7 @@ Pada tahapan deployment, saya mencoba untuk menggunakan Kubernetes terlebih dahu
     ```
 
   - Cek status node apakah sudah terinstal
-  ![alt text](https://github.com/lawrence-olen/Test-Axiata/blob/master/3.%20Deployment/images/axiata8.png.png?raw=true)
+  ![alt text](https://github.com/lawrence-olen/Test-Axiata/blob/master/3.%20Deployment/images/axiata8.png?raw=true)
 
 
 1. Install Helm dan Helmfile
