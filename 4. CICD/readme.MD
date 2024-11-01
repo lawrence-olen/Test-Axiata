@@ -169,7 +169,7 @@ pipeline {
 
 
 
-**Sonarqube**
+# Sonarqube
 
 Disini saya menggunakan Sonarqube untuk melakukan testing terhadap repository staging maupun production.
 ![alt text](https://github.com/lawrence-olen/Test-Axiata/blob/master/4.%20CICD/images/axiata15.png?raw=true)
