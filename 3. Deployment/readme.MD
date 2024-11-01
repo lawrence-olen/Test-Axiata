@@ -7,7 +7,7 @@
 
 # Steps
 
-Pada tahapan deployment, saya mencoba untuk menggunakan Kubernetes terlebih dahulu.
+Pada tahapan deployment, saya mencoba untuk menggunakan Kubernetes terlebih dahulu untuk branch staging. Lalu saya juga mencoba untuk menggunakan docker compose untuk branch produciton.
 
 **Kubernetes**
 
@@ -107,7 +107,10 @@ Pada tahapan deployment, saya mencoba untuk menggunakan Kubernetes terlebih dahu
 
 3. Deployment aplikasi menggunakan helmfile [Disini saya masih menggunakan IP Server untuk melihat aplikasi sudah berjalan atau belum (http://35.197.153.227:30009/)]
 
-# Gambar
+- Deployment menggunakan perintah ``` helmfile apply ```
+
+
+- Cek pada browser apakah sudah berjalan atau belum.
 
 
 > [!NOTE]
@@ -117,3 +120,18 @@ Pada tahapan deployment, saya mencoba untuk menggunakan Kubernetes terlebih dahu
 
 
 **Docker Compose**
+
+- Sebelumnya docker dan docker compose sudah terinstall pada server.
+
+- Melakukan clone repository terlebih dahulu.
+
+- Masuk kedalam direktori ``` cd dist/docker-compose ```
+
+- Gunakan docker compose untuk melakukan deployment aplikasi
+  ```
+  MYSQL_PASSWORD='<your_password>' docker compose --file docker-compose.yml up
+  ```
+
+- Lalu cek apakah sudah berjalan semua atau belum.
+
+- Buka browser untuk memastikan apakah aplikasi sudah berjalan atau belum (https://axiata.olen.studentdumbways.my.id/home).
