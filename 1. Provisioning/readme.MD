@@ -228,6 +228,7 @@ resource "google_compute_instance" "vm_instances_axiata" {
 
 > [!NOTE]
 > Beberapa perintah yang digunakan dalam konfigurasi terraform dan ansible.
+> 
 > Terraform
 > - terraform init
 > - terraform validate
