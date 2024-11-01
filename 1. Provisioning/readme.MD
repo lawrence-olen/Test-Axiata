@@ -8,7 +8,8 @@
 
 Dalam persiapan dan pembuatan server, disini saya menggunakan tools Infrasturktur as a Code (IaC) yaitu terraform dan ansible. Saya menggunakan Google Cloud Provider (GCP) sebagai server yang akan dibuat nantinya.
 
-**Terraform**
+
+# Terraform
 
 1. Setup Arsitektur pada file providers.tf
 
@@ -105,7 +106,8 @@ resource "google_compute_instance" "vm_instances_axiata" {
 ![alt text](https://github.com/lawrence-olen/Test-Axiata/blob/master/1.%20Provisioning/images/axiata4.png?raw=true)
 
 
-**Ansible**
+
+# Ansible
 
 - Melakukan setup dan installasi Docker pada Server.
 
